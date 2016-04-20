@@ -1,0 +1,165 @@
+@import "vars"
+
+body
+  background-color: white
+  width: 100%
+h2
+  color: $dark
+
+.welcome
+  margin: 10px
+
+div.panel-heading
+  background-color: $accent
+
+img
+  margin-top: 20px
+
+li
+  width: 110px
+  text-align: center
+
+.centered
+  padding: 0
+  margin: 0 auto
+
+.photo
+  background-color: $accent
+  width: 500px
+  height: 400px
+  margin-left: 15px
+  margin-right: 15px
+
+.btn-group-justified
+  width: 55%
+  margin: 0 auto
+
+a
+  width: 100%
+  color: $accent
+  margin-bottom: 0
+
+p
+  width: 100%
+  color: $dark
+  margin: 2px
+  font-size: 1.2em
+  font-weight: 500
+
+.work-box
+  background-color: $light-white
+  min-height: 250px
+  height: 90%
+  margin-bottom: 15px
+  margin-right: 15px
+  padding: 0
+
+.atrio
+  position: relative
+  overflow: hidden
+
+.atrio::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: -1
+  background: url(../img/ignasi.png)
+  background-size: contain
+
+.tuzola
+  position: relative
+  overflow: hidden
+
+.tuzola::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: -1
+  background: url(../img/speckles.png)
+  background-size: contain
+
+
+.kolea
+  position: relative
+  overflow: hidden
+
+.kolea::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: -1
+  background: url(../img/green.png)
+  background-size: contain
+
+.swipebox
+  position: relative
+  overflow: hidden
+
+.swipebox::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: -1
+  background: url(../img/stardust.png)
+  background-size: contain
+.surf
+  position: relative
+  overflow: hidden
+
+.surf::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: -1
+  background: url(../img/waves.gif)
+
+.as
+  position: relative
+  overflow: hidden
+
+.as::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: -1
+  background: url(../img/tree.png)
+
+.vimeo
+  position: relative
+  overflow: hidden
+
+.vimeo::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: -1
+  background: url(../img/lodyas.png)
+  background-size: contain
+
+.rayna
+  position: relative
+  overflow: hidden
+
+.rayna::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: -1
+  background: url(../img/flowers.png)
+
+
+@media screen and (max-width: 767px)
+  .work-box
+    margin-left: 10px
+
+.panel-heading
+  text-align: center
+  background-color: $pink
